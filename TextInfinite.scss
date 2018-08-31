@@ -42,7 +42,7 @@
           color: transparent;
           > div {
             display: inline-block;
-            color: $colorWhite01;
+            color: white;
           }
         }
       }
@@ -56,7 +56,7 @@
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
           }
           &:nth-child(even) {
-            color: $colorWhite01;
+            color: white;
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0);
           }
         }

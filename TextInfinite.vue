@@ -2,12 +2,12 @@
 <script src="./TextInfinite.js"></script>
 
 <template>
-  <div :class="[$style.textInfinite, $style[type]]">
-    <div 
+  <div :class="[$style.textInfinite]">
+    <div
       ref="wrapper"
       :class="$style.wrapper">
       <template v-for="i of totalItems">
-        <div 
+        <div
           ref="text"
           :class="$style.text"
           :style="{padding:`0 ${padding}vw`}"
